@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family:cursive;
+  background-color:rgb(228, 202, 202);
+}
+.head{
+  background-color: #fff;
+  border-radius: 15px;
+}
+.main-div{
+  display: grid;
+  grid-template-columns:300px 300px 300px;
+  gap: 15px;
+  background-color: white;
+
+}
+.pro{
+  background-color:darkgrey;
+  border-radius: 25px;
+  margin: 20px 15px 15px 15px;
+}
+.main-div .pro img{
+  width: 100%;
+  border-radius: 25px;
+}
+span i{
+  color: gold;
+  margin-top: 20px;
+  
+  font-size: small;
+}
+span{
+  margin-left:10px;
+}
+span p{
+  display: inline-block;
+  margin-left: 10px;
+}
+h3{
+  margin-top: 10px;
+  font-weight: 900;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+p{
+  font-size: small;
+  font-weight:100;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+h2{
+  color: green;
+  font-size:larger;
+  margin-left: 20px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.eye i{
+  position: relative;
+  float: right;
+  margin-right: 7px;
+  font-size: larger;
+  margin-top: 10px;
+  color: black;
+}
+input{
+  position: relative;
+  float: right;
+  padding: 8px 20px;
+  font-family: inherit;
+  background-color: green;
+  color: white;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+h1{
+  margin-bottom: 10px;
+  margin-left: 20px;
+
+}
